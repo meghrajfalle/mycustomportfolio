@@ -40,17 +40,14 @@ class Resume extends Component {
             <ul>
               <li> Leadership Skills.</li>
               <li>
-                {' '}
                 Ready to work hard, adapt and adjust according to the situation.
               </li>
               <li>
-                {' '}
                 Good communication, presentation and relationship management
                 skills..
               </li>
               <li> Self-motivated and have a positive attitude..</li>
               <li>
-                {' '}
                 Eager to update technical skills & have a desire to learn. Ready
                 to work as a part of a team.
               </li>
@@ -160,13 +157,13 @@ class Resume extends Component {
               certificateURL='https://www.udemy.com/certificate/UC-U7WESJ6O/'
             />
             <Certifications
-              course='The Complete JavaScript Course 2019: Build Real Projects! ​'
+              course='The Complete JavaScript Course 2019: Build Real Projects!'
               endDate='29 Aug 2019'
               certificateID='UC-AJ1U231M'
               certificateURL='https://www.udemy.com/certificate/UC-AJ1U231M/'
             />
             <Certifications
-              course='RESTful Web Services with Spring Framework​ '
+              course='RESTful Web Services with Spring Framework​'
               endDate='09 Jun 2019'
               certificateID='UC-IO51DEUO'
               certificateURL='https://www.udemy.com/certificate/UC-IO51DEUO/'
