@@ -16,7 +16,6 @@ class Resume extends Component {
               src={MyProfile}
               alt='avatar'
               style={{
-                height: '300px',
                 paddingTop: '5em',
                 marginLeft: '5px',
                 height: '350px'
@@ -39,11 +38,22 @@ class Resume extends Component {
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <p className='cardHeadingText'>Key Strengths</p>
             <ul>
-            <li> Leadership Skills.</li>
-            <li> Ready to work hard, adapt and adjust according to the situation.</li>
-            <li> Good communication, presentation and relationship management skills..</li>
-            <li> Self-motivated and have a positive attitude..</li>
-            <li> Eager to update technical skills & have a desire to learn. Ready to work as a part of a team.</li>
+              <li> Leadership Skills.</li>
+              <li>
+                {' '}
+                Ready to work hard, adapt and adjust according to the situation.
+              </li>
+              <li>
+                {' '}
+                Good communication, presentation and relationship management
+                skills..
+              </li>
+              <li> Self-motivated and have a positive attitude..</li>
+              <li>
+                {' '}
+                Eager to update technical skills & have a desire to learn. Ready
+                to work as a part of a team.
+              </li>
             </ul>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <p className='cardHeadingText'>Address</p>
@@ -58,8 +68,6 @@ class Resume extends Component {
             <p className='cardHeadingText'>Web</p>
             <p>mywebsite.com</p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-          
-      
           </Cell>
           <Cell className='resume-right-col' col={8}>
             <h2>Education</h2>
@@ -118,19 +126,64 @@ class Resume extends Component {
             <Skills skill='HTML/CSS' progress={80} />
             <Skills skill='ReactJs' progress={70} />
             <Skills skill='NodeJs' progress={50} />
-            
+
             <hr style={{ borderTop: '3px solid #e22947' }} />
             <h2>Certifications</h2>
-            <Certifications course='React Front to Back'  endDate='04 Oct 2020' certificateID='UC-c4da4f06-4ddc-46c6-972d-c89a7ae69a03' certificateURL='https://www.udemy.com/certificate/UC-c4da4f06-4ddc-46c6-972d-c89a7ae69a03'/>
-            <Certifications course='Full Stack Project: Spring Boot 2.0, ReactJS, Redux'  endDate='26 Feb 2020' certificateID='UC-148aae49-874f-455e-91ce-002bdda88809' certificateURL='https://www.udemy.com/certificate/UC-148aae49-874f-455e-91ce-002bdda88809/'/>
-            <Certifications course='Master Microservices with Spring Boot and Spring Cloud​'  endDate='02 Jan 2020' certificateID='UC-1EN9ZBR0' certificateURL='https://www.udemy.com/certificate/UC-1EN9ZBR0/'/>
-            <Certifications course='JAVA 8 New Features in Simple Way'  endDate='13 Oct 2019' certificateID='UC-EIP46QOH' certificateURL='https://www.udemy.com/certificate/UC-EIP46QOH'/>
-            <Certifications course='React – The Complete Guide (incl Hooks, React Router, Redux)'  endDate='09 Sep 2019' certificateID='UC-U7WESJ6O' certificateURL='https://www.udemy.com/certificate/UC-U7WESJ6O/'/>
-            <Certifications course='The Complete JavaScript Course 2019: Build Real Projects! ​'  endDate='29 Aug 2019' certificateID='UC-AJ1U231M' certificateURL='https://www.udemy.com/certificate/UC-AJ1U231M/'/>
-            <Certifications course='RESTful Web Services with Spring Framework​ '  endDate='09 Jun 2019' certificateID='UC-IO51DEUO' certificateURL='https://www.udemy.com/certificate/UC-IO51DEUO/'/>
-            <Certifications course='Git crash course '  endDate='02 Jul 2019' certificateID='UC-8W1IH41' certificateURL='https://www.udemy.com/certificate/UC-8W1IH41I/'/>
-            <Certifications course='Spring & Hibernate '  endDate='06 Mar 2018' certificateID='UC-3A8R2P65' certificateURL='https://www.udemy.com/certificate/UC-3A8R2P65/'/>
-            </Cell>
+            <Certifications
+              course='React Front to Back'
+              endDate='04 Oct 2020'
+              certificateID='UC-c4da4f06-4ddc-46c6-972d-c89a7ae69a03'
+              certificateURL='https://www.udemy.com/certificate/UC-c4da4f06-4ddc-46c6-972d-c89a7ae69a03'
+            />
+            <Certifications
+              course='Full Stack Project: Spring Boot 2.0, ReactJS, Redux'
+              endDate='26 Feb 2020'
+              certificateID='UC-148aae49-874f-455e-91ce-002bdda88809'
+              certificateURL='https://www.udemy.com/certificate/UC-148aae49-874f-455e-91ce-002bdda88809/'
+            />
+            <Certifications
+              course='Master Microservices with Spring Boot and Spring Cloud​'
+              endDate='02 Jan 2020'
+              certificateID='UC-1EN9ZBR0'
+              certificateURL='https://www.udemy.com/certificate/UC-1EN9ZBR0/'
+            />
+            <Certifications
+              course='JAVA 8 New Features in Simple Way'
+              endDate='13 Oct 2019'
+              certificateID='UC-EIP46QOH'
+              certificateURL='https://www.udemy.com/certificate/UC-EIP46QOH'
+            />
+            <Certifications
+              course='React – The Complete Guide (incl Hooks, React Router, Redux)'
+              endDate='09 Sep 2019'
+              certificateID='UC-U7WESJ6O'
+              certificateURL='https://www.udemy.com/certificate/UC-U7WESJ6O/'
+            />
+            <Certifications
+              course='The Complete JavaScript Course 2019: Build Real Projects! ​'
+              endDate='29 Aug 2019'
+              certificateID='UC-AJ1U231M'
+              certificateURL='https://www.udemy.com/certificate/UC-AJ1U231M/'
+            />
+            <Certifications
+              course='RESTful Web Services with Spring Framework​ '
+              endDate='09 Jun 2019'
+              certificateID='UC-IO51DEUO'
+              certificateURL='https://www.udemy.com/certificate/UC-IO51DEUO/'
+            />
+            <Certifications
+              course='Git crash course '
+              endDate='02 Jul 2019'
+              certificateID='UC-8W1IH41'
+              certificateURL='https://www.udemy.com/certificate/UC-8W1IH41I/'
+            />
+            <Certifications
+              course='Spring & Hibernate '
+              endDate='06 Mar 2018'
+              certificateID='UC-3A8R2P65'
+              certificateURL='https://www.udemy.com/certificate/UC-3A8R2P65/'
+            />
+          </Cell>
         </Grid>
       </div>
     );

@@ -18,7 +18,7 @@ class Certifications extends Component {
           <a
             href={this.props.certificateURL}
             target='_blank'
-            rel='noopener noreferral'
+            rel='noopener noreferrer'
           >
             Certificate link
           </a>
