@@ -46,7 +46,7 @@ class Projects extends Component {
                 <a
                   href='https://github.com/meghrajfalle/contact-keeper'
                   target='_blank'
-                  rel='noopener norefferal'
+                  rel='noopener noreferrer'
                   className='button-link'
                 >
                   Github
@@ -56,7 +56,7 @@ class Projects extends Component {
                 <a
                   href='https://contact-keeper-megh.herokuapp.com/'
                   target='_blank'
-                  rel='noopener norefferal'
+                  rel='noopener noreferrer'
                   className='button-link'
                 >
                   Visit Site
@@ -88,7 +88,7 @@ class Projects extends Component {
                 <a
                   href='https://github.com/meghrajfalle/github-finder'
                   target='_blank'
-                  rel='noopener norefferal'
+                  rel='noopener noreferrer'
                   className='button-link'
                 >
                   Github
@@ -98,7 +98,7 @@ class Projects extends Component {
                 <a
                   href='https://github-findermegh.netlify.app/'
                   target='_blank'
-                  rel='noopener norefferal'
+                  rel='noopener noreferrer'
                   className='button-link'
                 >
                   Visit Site
@@ -133,7 +133,7 @@ class Projects extends Component {
                 <a
                   href='https://github.com/meghrajfalle/HerokuDeployedPPMTool'
                   target='_blank'
-                  rel='noopener norefferal'
+                  rel='noopener noreferrer'
                   className='button-link'
                 >
                   Github
@@ -143,7 +143,7 @@ class Projects extends Component {
                 <a
                   href='https://projectmanagement-app.herokuapp.com/'
                   target='_blank'
-                  rel='noopener norefferal'
+                  rel='noopener noreferrer'
                   className='button-link'
                 >
                   Visit Site
