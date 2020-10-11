@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import Officephoto from '../img/OfficeEnjoy.jpg';
 
 class Contact extends Component {
   render() {
@@ -8,18 +9,12 @@ class Contact extends Component {
         <Grid className='contact-grid'>
           <Cell col={6}>
             <h2> Meghraj Falle</h2>
-            <img
-              src='https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png'
-              alt='avatar'
-              style={{ height: '200px' }}
-            />
+            <img src={Officephoto} alt='avatar' style={{ height: '500px' }} />
             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.{' '}
+              Loves to develop sites using ReactJs. A fitness enthusiast, always
+              trying to learn new technologies and believes that practice is the
+              key to gain the expertise. Please get in touch for relevant
+              discussion.
             </p>
           </Cell>
           <Cell col={6}>
@@ -40,7 +35,7 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: '25px', fontFamily: 'Anton' }}
                   >
-                    <i className='fa fa-fax' aria-hidden='true' />
+                    <i className='fa fa-whatsapp' aria-hidden='true' />
                     +91 7972539965
                   </ListItemContent>
                 </ListItem>

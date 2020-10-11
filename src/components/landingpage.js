@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Resume from './resume';
+import MyProfile from '../img/MyProfile 2.png';
 
 class Landingpage extends Component {
   render() {
@@ -8,19 +8,15 @@ class Landingpage extends Component {
       <div style={{ width: '100%', margin: 'auto' }}>
         <Grid className='landing-grid'>
           <Cell col={12}>
-            <img
-              src='https://i.pinimg.com/originals/3b/7d/6f/3b7d6f60e2d450b899c322266fc6edfd.png'
-              alt='avatar'
-              className='avatar-img'
-            />
+            <img src={MyProfile} alt='avatar' className='avatar-img' />
             <div className='banner-text'>
               <h1>Full Stack Web Developer</h1>
               <hr />
 
               <p>
                 {' '}
-                HTML/CSS | Bootstrap | Java | Spring | SpringBoot | Javascript |
-                ReactJS | ReactNative | NodeJS | Express | MongoDB{' '}
+                Java | SpringBoot| Hibernate | HTML/CSS | Bootstrap | Javascript
+                | ReactJS | NodeJS | Express | MongoDB{' '}
               </p>
               <div className='social-links'>
                 {/** LinkedIn*/}

@@ -7,7 +7,9 @@ class Experience extends Component {
       <Grid>
         <Cell col={4}>
           <p>
-            {this.props.startYear} - {this.props.endYear}
+            <h4 style={{ marginTop: '0px' }}>
+              {this.props.startYear} - {this.props.endYear}
+            </h4>
           </p>
         </Cell>
         <Cell col={8}>

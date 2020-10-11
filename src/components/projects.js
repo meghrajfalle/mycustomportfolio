@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import ContactKeeper from '../img/id-card.png';
+import ProjectManagement from '../img/projectmanagement.png';
+import GithubFinder from '../img/github-finder.png';
 import {
   Tabs,
   Tab,
@@ -27,75 +30,125 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450px', margin: 'auto' }}>
             <CardTitle
               style={{
-                color: '#fff',
+                color: 'black',
                 height: '176px',
-                background:
-                  'url(https://www.filepicker.io/api/file/SVFQZQAyRpqJ31f6LNGe) center / cover'
+                background: `url(${ContactKeeper}) center / cover`
               }}
-            >
-              React Project #1 {''}
-            </CardTitle>
-            <CardText>
-              {' '}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
+            ></CardTitle>
+            <CardText className='cardText'>
+              <p className='cardHeadingText'> Contact Keeper</p>
+              Contact-Keeper is a Full Stack App for storing contacts and
+              searching them based on name and email. This site uses ReactJs at
+              frontend and NodeJS at backend and the database used is MonogoDB.
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+              <Button>
+                <a
+                  href='https://github.com/meghrajfalle/contact-keeper'
+                  target='_blank'
+                  rel='noopener norefferal'
+                  className='button-link'
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href='https://contact-keeper-megh.herokuapp.com/'
+                  target='_blank'
+                  rel='noopener norefferal'
+                  className='button-link'
+                >
+                  Visit Site
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name='share' />
             </CardMenu>
           </Card>
+
           {/** Project 2 */}
           <Card shadow={5} style={{ minWidth: '450px', margin: 'auto' }}>
             <CardTitle
               style={{
-                color: '#fff',
+                color: 'black',
                 height: '176px',
-                background:
-                  'url(https://www.filepicker.io/api/file/SVFQZQAyRpqJ31f6LNGe) center / cover'
+                background: `url(${GithubFinder}) center / cover`
               }}
-            >
-              React Project #2 {''}
-            </CardTitle>
-            <CardText>
-              {' '}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
+            ></CardTitle>
+            <CardText className='cardText'>
+              <p className='cardHeadingText'> Github Finder</p>
+              Github Finder is a ReactJS webapplication where you can search for
+              anybody's github username and checkout their repos and profile
+              information. It fetches the results from githubs exposed APIs.
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+              <Button>
+                <a
+                  href='https://github.com/meghrajfalle/github-finder'
+                  target='_blank'
+                  rel='noopener norefferal'
+                  className='button-link'
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href='https://github-findermegh.netlify.app/'
+                  target='_blank'
+                  rel='noopener norefferal'
+                  className='button-link'
+                >
+                  Visit Site
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name='share' />
             </CardMenu>
           </Card>
+
           {/** Project 3 */}
           <Card shadow={5} style={{ minWidth: '450px', margin: 'auto' }}>
             <CardTitle
               style={{
-                color: '#fff',
+                color: 'black',
                 height: '176px',
-                background:
-                  'url(https://www.filepicker.io/api/file/SVFQZQAyRpqJ31f6LNGe) center / cover'
+                background: `url(${ProjectManagement}) center / cover`
               }}
-            >
-              React Project #3 {''}
-            </CardTitle>
-            <CardText>
-              {' '}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
+            ></CardTitle>
+            <CardText className='cardText'>
+              <p className='cardHeadingText'>
+                Personal Project Management Tool
+              </p>
+              Personal Project Management Tool is used to create and manage your
+              own projects and the projects tasks inside it. It holds data of
+              all the projects and its tasks, their statuses(Todo, In Progress,
+              Done).
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+              <Button>
+                <a
+                  href='https://github.com/meghrajfalle/HerokuDeployedPPMTool'
+                  target='_blank'
+                  rel='noopener norefferal'
+                  className='button-link'
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href='https://projectmanagement-app.herokuapp.com/'
+                  target='_blank'
+                  rel='noopener norefferal'
+                  className='button-link'
+                >
+                  Visit Site
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name='share' />
@@ -116,7 +169,7 @@ class Projects extends Component {
                   'url(https://www.filepicker.io/api/file/SVFQZQAyRpqJ31f6LNGe) center / cover'
               }}
             >
-              Angular Project #1 {''}
+              Sample Angular Project #1 {''}
             </CardTitle>
             <CardText>
               {' '}
@@ -137,13 +190,13 @@ class Projects extends Component {
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          <h1>This is VueJS</h1>
+          <h5>VueJS Projects Coming Soon!!</h5>
         </div>
       );
     } else if (this.state.activeTab === 3) {
       return (
         <div>
-          <h1>This is MongoDB</h1>
+          <h5>MongoDB Projects Coming Soon!!</h5>
         </div>
       );
     }

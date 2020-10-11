@@ -39,6 +39,31 @@
 .projects-grid {
   display: flex;
 }
+
+.button-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.cardimg {
+  color: #fff;
+  height: 206px;
+  width: 370px;
+  background-position: center;
+  background-size: cover;
+}
+
+.cardHeadingText {
+  font-size: 20px;
+  font-family: Oxygen, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.cardText {
+  font-family: Oxygen, sans-serif;
+}
+
 /* resume page css */
 .resume-right-col {
   background: #27221f;
@@ -90,8 +115,9 @@
 /* contact page css*/
 
 .avatar-img {
-  height: 250px;
+  height: 330px;
   padding-top: 5em;
+  width: 20%;
 }
 
 .banner-text {
