@@ -9,7 +9,7 @@ class Contact extends Component {
         <Grid className='contact-grid'>
           <Cell col={6}>
             <h2> Meghraj Falle</h2>
-            <img src={Officephoto} alt='avatar' style={{ height: '500px' }} />
+            <img src={Officephoto} alt='avatar' style={{ height: '350px' }} />
             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
               Loves to develop sites using ReactJs. A fitness enthusiast, always
               trying to learn new technologies and believes that practice is the

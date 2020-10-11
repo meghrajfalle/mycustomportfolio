@@ -116,8 +116,8 @@
 
 .avatar-img {
   height: 330px;
-  padding-top: 5em;
-  width: 20%;
+  padding-top: 3em;
+  width: 28%;
 }
 
 .banner-text {
@@ -129,7 +129,7 @@
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 58px;
   font-weight: bold;
   color: white;
 }
@@ -156,5 +156,6 @@
 .social-links i {
   color: white;
   font-size: 5em;
+  padding-top: 5px;
   padding: 10px;
 }
